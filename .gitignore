@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Training outputs
+runs/
+weights/
+outputs/
+reports/figures/
+
+# Data
+data/
+!data/README.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/other
+Thumbs.db
+*.zip

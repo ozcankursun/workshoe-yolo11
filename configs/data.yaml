@@ -1,0 +1,9 @@
+# Edit these paths to your dataset folders
+path: ../data/workshoes  # root dir of your dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Class names
+names:
+  0: work_shoe

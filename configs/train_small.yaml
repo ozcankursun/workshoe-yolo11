@@ -1,0 +1,19 @@
+model: yolo11s.pt
+# Common training hyperparameters
+data: configs/data.yaml
+imgsz: 640
+epochs: 50
+batch: 16
+lr0: 0.01
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+patience: 25
+seed: 42
+device: auto  # '0' for GPU 0, 'cpu' to force CPU
+workers: 8
+cache: false
+project: runs/detect
+name: train
+save: true
+plots: true
