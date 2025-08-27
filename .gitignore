@@ -5,6 +5,8 @@ __pycache__/
 .env
 .venv/
 venv/
+.venv311/
+.venv311_onnx
 env/
 *.egg-info/
 .DS_Store
@@ -13,13 +15,11 @@ env/
 .vscode/
 
 # Training outputs
-runs/
 weights/
 outputs/
 reports/figures/
 
 # Data
-data/
 !data/README.md
 
 # Jupyter
@@ -28,3 +28,4 @@ data/
 # OS/other
 Thumbs.db
 *.zip
+=0.1.59
